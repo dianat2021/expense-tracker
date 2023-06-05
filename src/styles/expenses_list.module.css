@@ -1,0 +1,27 @@
+
+.expenses-header-container{
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    background-color: deepskyblue;
+}
+.expense{
+    flex-basis: 40%;
+    border-right: 2px solid grey;
+    text-align: center;
+}
+.price{
+    flex-basis: 20%;
+    border-right: 2px solid grey;
+    text-align: center;
+}
+.date{
+    flex-basis: 25%;
+    border-right: 2px solid grey;
+    text-align: center;
+}
+
+.expenses-container{
+    flex-basis: 90%;
+    background-color: blue;
+}
